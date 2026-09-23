@@ -1,0 +1,21 @@
+# Private data must normally live outside this repository.
+.env
+.env.*
+!.env.example
+private/
+local/
+saves/
+screenshots/
+recordings/
+logs/
+cache/
+*.log
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+known_hosts
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db
