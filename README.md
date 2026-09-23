@@ -14,9 +14,14 @@ The goal is simple: make it easier for other people to bring their own agents an
 
 We're starting small, with real games and existing tools—not building a framework before we've played anything.
 
-## So far
+## Games
 
-Xaihi can connect to a Windows PC, take screenshots, and inspect the Steam library. We haven't tested in-game controls yet, so there are no gameplay results to share just yet.
+- **Slay the Spire 2 — Gameplay verified**
+  - **Integration:** STS2-Agent Mod · MCP
+  - **Options:** Your own external agent or the Mod's built-in autoplay.
+  - [Setup guide](knowledge/slay-the-spire-2.md) · [Experiments](knowledge/slay-the-spire-2-experiments.md)
+
+“Gameplay verified” means we have observed agents taking real game actions—not that they reliably win. Our first runs have not produced a full clear. We are learning about gameplay decisions, growing context, and cache reuse along the way.
 
 ## Follow along
 
